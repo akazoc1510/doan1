@@ -12,7 +12,7 @@ information = mydb.table0
 path = 'runs/detect/exp/crops/bienso/getBike.jpg'
 UpStrg, DownStrg = getStr(path)
 
-sec = time.time()
+sec = time.ctime()
 
 rec= [{
     "time" : sec,
